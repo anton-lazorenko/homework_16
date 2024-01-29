@@ -13,7 +13,7 @@
         padding: 36px 38px 66px 35px;
 
         &-logo {
-            color: #252B42; 
+            color: #252B42;
             font-size: 24px;
             font-weight: 700;
             line-height: 32px;
@@ -33,13 +33,121 @@
         align-items: center;
         gap: 30px;
         color: #737373;
-        text-align: center;  
-        font-size: 30px; 
+        text-align: center;
+        font-size: 30px;
         font-weight: 400;
-        line-height: 45px; 
+        line-height: 45px;
         letter-spacing: 0.2px;
         padding-bottom: 68px;
         padding-left: 0;
 
+    }
+    &-desktop-header {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper__header {
+
+        .wrapper__header-desktop-top {}
+
+        &-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        &-desktop-header {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapper__header {
+
+        .wrapper__header-desktop-top {
+            min-height: 46px;
+            display: flex;
+            padding: 0px 24px;
+            justify-content: space-between;
+            align-items: center;
+            flex-shrink: 1;
+            background: #252B42;
+            color: #FFF;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+        }
+
+        &-items {
+            display: none;
+        }
+
+        &-list {
+            display: none;
+        }
+
+        &-desktop-header {
+            padding: 12px 17px 63px 38px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &-logo {
+                color: #252B42;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 32px;
+                letter-spacing: 0.1px;
+            }
+
+            &-list {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                color: #737373;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+            }
+
+            &-login-items {
+                display: flex;
+                align-items: center;
+                color: #23A6F0;
+                text-align: center;
+                font-size: 14px; 
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.2px; 
+
+                &-login-icon {
+                    
+                }
+
+                &-login-text {
+                    padding-left: 5px;
+                }
+
+                &-search-icon {
+                    padding-left: 30px;
+                }
+
+                &-shopping-card-icon {
+                    padding-left: 30px;
+                }
+
+                &-favourite-icon {
+                    padding-left: 30px;
+                }
+            }
+    
+        
+        }
+        
     }
 }
