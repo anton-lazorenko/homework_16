@@ -1,5 +1,18 @@
 @import '../scss/normalize';
+@import '../scss/header';
+@import '../scss/main';
+@import '../scss/footer';
 
 body {
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1, h2, h3 {
     margin: 0;
 }

@@ -1,20 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&family=Roboto&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Bandage</title>
 </head>
+
 <body>
     <header>
-
+        <div class="wrapper__header">
+            <div class="wrapper__header-desktop-top">
+                <img src="img-desktop/phone-icon.svg" alt="phone">
+                <span>(225) 555-0118</span>
+                <img src="img-desktop/email-icon.svg" alt="email">
+                <span>michelle.rivera@example.com</span>
+                <span>Follow Us and get a chance to win 80% off</span>
+                <span>Follow Us:</span>
+                <img src="img-desktop/instagram-icon.svg" alt="instagram">
+                <img src="img-desktop/youtube-icon.svg" alt="youtube">
+                <img src="img-desktop/facebook-icon.svg" alt="facebook">
+                <img src="img-desktop/twitter-icon.svg" alt="twitter">
+            </div>
+            <div class="wrapper__header-items">
+                <span class="wrapper__header-items-logo">Bandage</span>
+                <nav class="wrapper__header-items-navigation">
+                    <img src="img-mobile/header-search-icon.svg" alt="search-icon">
+                    <img src="img-mobile/header-shopping-cart-icon.svg" alt="shopping-cart-icon">
+                    <img src="img-mobile/header-menu-icon.svg" alt="menu-icon">
+                </nav>
+            </div>
+            <ul class="wrapper__header-list">
+                <li>Home</li>
+                <li>Product</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+            </ul>
+        </div>
     </header>
     <main>
-
+        <section class="hero-section">
+            <div class="hero-section__wrapper">
+                <div class="hero-section__wrapper-content">
+                    <span class="hero-section__wrapper-content-date">SUMMER 2020</span>
+                    <h1 class="hero-section__wrapper-content-title">NEW COLLECTION</h1>
+                    <span class="hero-section__wrapper-content-description">
+                        We know how large objects
+                        will act, but things on a
+                        small scale.
+                    </span>
+                    <button type="button" class="hero-section__wrapper-content-button">SHOP NOW</button>
+                    <picture class="hero-section__wrapper-content-image">
+                        <source media="(min-width:768px)" srcset="img-desktop/hero-section-girl-optimized.png">
+                        <img src="img-mobile/hero-section-girl-optimized.png" alt="girl">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section class="first-section">
+            <div class="first-section__wrapper">
+                <ul class="first-section__wrapper-list">
+                    <li><img src="img-mobile/hooli-logo.png" alt="hooli"></li>
+                    <li><img src="img-mobile/lyft-logo.png" alt=""></li>
+                    <li><img src="img-mobile/pied-piper-hat-logo.png" alt="hat"></li>
+                    <li><img src="img-mobile/stripe-logo.png" alt="stripe"></li>
+                    <li><img src="img-mobile/aws-logo.png" alt="aws"></li>
+                    <li><img src="img-mobile/reddit-alien-logo.png" alt="reddit-alien"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="second-section">
+            <div class="second-section__wrapper">
+                <div class="second-section__wrapper-items">
+                    <div class="second-section__wrapper-items-image">
+                        <div class="second-section__wrapper-items-image-bg">
+                            <div class="second-section__wrapper-items-image-bg-content">
+                                <span>Top Product Of the Week</span><br>
+                                <button type="button">EXPLORE ITEMS</button>
+                            </div>
+                        </div>
+                        <picture>
+                            <source media="(min-width:768px)"
+                                srcset="img-desktop/second-section-first-image-optimized.jpg">
+                            <img src="img-mobile/second-section-first-image-optimized.jpg" alt="models">
+                        </picture>
+                    </div>
+                    <div class="second-section__wrapper-items-image">
+                        <div class="second-section__wrapper-items-image-bg">
+                            <div class="second-section__wrapper-items-image-bg-content">
+                                <span>Top Product Of the Week</span><br>
+                                <button type="button">EXPLORE ITEMS</button>
+                            </div>
+                        </div>
+                        <picture>
+                            <source media="(min-width:768px)"
+                                srcset="img-desktop/second-section-second-image-optimized.jpg">
+                            <img src="img-mobile/second-section-second-image-optimized.jpg" alt="models">
+                        </picture>
+                    </div>
+                    <div class="second-section__wrapper-items-image">
+                        <div class="second-section__wrapper-items-image-bg">
+                            <div class="second-section__wrapper-items-image-bg-content">
+                                <span>Top Product Of the Week</span><br>
+                                <button type="button">EXPLORE ITEMS</button>
+                            </div>
+                        </div>
+                        <picture>
+                            <source media="(min-width:768px)"
+                                srcset="img-desktop/second-section-third-image-optimized.jpg">
+                            <img src="img-mobile/second-section-third-image-optimized.jpg" alt="models">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="third-section">
+            <div class="third-section__wrapper">
+                <div class="third-section__wrapper-content">
+                    <h2 class="third-section__wrapper-content-title">BESTSELLER PRODUCTS</h2>
+                    <span class="third-section__wrapper-content-subtitle">Problems trying to resolve the conflict
+                        between</span>
+                    <div class="third-section__wrapper-content-flex">
+                        <div class="third-section__wrapper-content-flex-items">
+                            <picture>
+                                <source media="(min-width:768px)"
+                                    srcset="img-desktop/third-section-sixth-image-optimized.jpg">
+                                <img src="img-mobile/third-section-first-image-optimized.jpg" alt="models">
+                            </picture>
+                            <div class="third-section__wrapper-content-flex-items-text">
+                                <h3>Graphic Design</h3>
+                                <span class="third-section__wrapper-content-flex-items-text-department">English
+                                    Department</span>
+                                <span class="third-section__wrapper-content-flex-items-text-price">$16.48
+                                    <span>$6.48</span></span>
+                            </div>
+                        </div>
+                        <div class="third-section__wrapper-content-flex-items">
+                            <picture>
+                                <source media="(min-width:768px)"
+                                    srcset="img-desktop/third-section-second-image-optimized.jpg">
+                                <img src="img-mobile/third-section-second-image-optimized.jpg" alt="models">
+                            </picture>
+                            <div class="third-section__wrapper-content-flex-items-text">
+                                <h3>Graphic Design</h3>
+                                <span class="third-section__wrapper-content-flex-items-text-department">English
+                                    Department</span>
+                                <span class="third-section__wrapper-content-flex-items-text-price">$16.48
+                                    <span>$6.48</span></span>
+                            </div>
+                        </div>
+                        <div class="third-section__wrapper-content-flex-items">
+                            <picture>
+                                <source media="(min-width:768px)"
+                                    srcset="img-desktop/third-section-third-image-optimized.jpg">
+                                <img src="img-mobile/third-section-third-image-optimized.jpg" alt="models">
+                            </picture>
+                            <div class="third-section__wrapper-content-flex-items-text">
+                                <h3>Graphic Design</h3>
+                                <span class="third-section__wrapper-content-flex-items-text-department">English
+                                    Department</span>
+                                <span class="third-section__wrapper-content-flex-items-text-price">$16.48
+                                    <span>$6.48</span></span>
+                            </div>
+                        </div>
+                        <div class="third-section__wrapper-content-flex-items">
+                            <picture>
+                                <source media="(min-width:768px)"
+                                    srcset="img-desktop/third-section-fourth-image-optimized.jpg">
+                                <img src="img-mobile/third-section-fourth-image-optimized.jpg" alt="models">
+                            </picture>
+                            <div class="third-section__wrapper-content-flex-items-text">
+                                <h3>Graphic Design</h3>
+                                <span class="third-section__wrapper-content-flex-items-text-department">English
+                                    Department</span>
+                                <span class="third-section__wrapper-content-flex-items-text-price">$16.48
+                                    <span>$6.48</span></span>
+                            </div>
+                        </div>
+                        <div class="third-section__wrapper-content-flex-items">
+                            <picture>
+                                <source media="(min-width:768px)"
+                                    srcset="img-desktop/third-section-fifth-image-optimized.jpg">
+                                <img src="img-mobile/third-section-fifth-image-optimized.jpg" alt="models">
+                            </picture>
+                            <div class="third-section__wrapper-content-flex-items-text">
+                                <h3>Graphic Design</h3>
+                                <span class="third-section__wrapper-content-flex-items-text-department">English
+                                    Department</span>
+                                <span class="third-section__wrapper-content-flex-items-text-price">$16.48
+                                    <span>$6.48</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button">Load more products</button>
+                </div>
+            </div>
+        </section>
+        <section class="fourth-section">
+            <div class="fourth-section__wrapper">
+                <div class="fourth-section__wrapper-items">
+                    <span class="fourth-section__wrapper-items-subtitle">Featured Products</span>
+                    <h2 class="fourth-section__wrapper-items-title">We love what we do</h2>
+                    <span class="fourth-section__wrapper-items-description">Problems trying to resolve the conflict
+                        between
+                        the
+                        two major realms of Classical physics: Newtonian mechanics <br><br> Problems trying to resolve
+                        the
+                        conflict
+                        between the two major realms of Classical physics:
+                        Newtonian mechanics </span>
+                </div>
+                <div class="fourth-section__wrapper-images">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="img-desktop/fourth-section-first-image-optimized.jpg">
+                        <img src="img-mobile/fourth-section-first-image-optimized.jpg" alt="models">
+                    </picture>
+                    <picture>
+                        <source media="(min-width:768px)"
+                            srcset="img-desktop/fourth-section-second-image-optimized.jpg">
+                        <img src="img-mobile/fourth-section-second-image-optimized.jpg" alt="models">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section class="fifth-section">
+            <div class="fifth-section__wrapper">
+                <div class="fifth-section__wrapper-about">
+                    <span class="fifth-section__wrapper-about-subtitle">Featured Products</span>
+                    <h2 class="fifth-section__wrapper-about-title">THE BEST SERVICES</h2>
+                    <span class="fifth-section__wrapper-about-description">Problems trying to resolve the conflict
+                        between</span>
+                </div>
+                <div class="fifth-section__wrapper-items">
+                    <div class="fifth-section__wrapper-items-flex">
+                        <img src="img-mobile/fifth-section-first-icon.svg" alt="icon">
+                        <h3>Easy Wins</h3>
+                        <span>Get your best looking smile now!</span>
+                    </div>
+                    <div class="fifth-section__wrapper-items-flex">
+                        <img src="img-mobile/fifth-section-second-icon.svg" alt="icon">
+                        <h3>Concrete</h3>
+                        <span>Defalcate is most focused in helping you discover your most beautiful smile</span>
+                    </div>
+                    <div class="fifth-section__wrapper-items-flex">
+                        <img src="img-mobile/fifth-section-third-icon.svg" alt="icon">
+                        <h3>Hack Growth</h3>
+                        <span>Overcame any hurdle or any other problem.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sixth-section">
+            <div class="sixth-section__wrapper">
+                <div class="sixth-section__wrapper-posts">
+                    <span class="sixth-section__wrapper-posts-subtitle">Practice Advice</span>
+                    <h2 class="sixth-section__wrapper-posts-title">Featured Posts</h2>
+                </div>
+                <div class="sixth-section__wrapper-item">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="img-desktop/sixth-section-first-image-optimized.jpg">
+                        <img src="img-mobile/sixth-section-first-image-optimized.jpg" alt="models">
+                    </picture>
+                    <div class="sixth-section__wrapper-item-menu">
+                        <div class="sixth-section__wrapper-item-menu-items">
+                            <span class="sixth-section__wrapper-item-menu-items-active">Google</span>
+                            <span class="sixth-section__wrapper-item-menu-items -not-active">Trending</span>
+                            <span class="sixth-section__wrapper-item-menu-items -not-active">New</span>
+                        </div>
+                        <h3 class="sixth-section__wrapper-item-menu-title">Loudest à la Madison #1
+                            (L'integral)</h3>
+                        <span class="sixth-section__wrapper-item-menu-description">
+                            We focus on ergonomics and meeting
+                            you where you work. It's only a
+                            keystroke away.
+                        </span>
+                        <div class="sixth-section__wrapper-item-menu-info">
+                            <div class="sixth-section__wrapper-item-menu-info-date">
+                                <img src="img-mobile/date-icon.svg" alt="date">
+                                <span>22 April 2021</span>
+                            </div>
+                            <div class="sixth-section__wrapper-item-menu-info-comments">
+                                <img src="img-mobile/comments-icon.svg" alt="comments">
+                                <span>10 comments</span>
+                            </div>
+                        </div>
+                        <div class="sixth-section__wrapper-item-menu-learn">
+                            <span>Learn More</span>
+                            <img src="img-desktop/learn-more-icon.svg" alt="arrow">
+                        </div>
+                    </div>
+                </div>
+                <div class="sixth-section__wrapper-item">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="img-desktop/sixth-section-second-image-optimized.jpg">
+                        <img src="img-mobile/sixth-section-second-image-optimized.jpg" alt="models">
+                    </picture>
+                    <div class="sixth-section__wrapper-item-menu">
+                        <div class="sixth-section__wrapper-item-menu-items">
+                            <span class="sixth-section__wrapper-item-menu-items-active">Google</span>
+                            <span class="sixth-section__wrapper-item-menu-items -not-active">Trending</span>
+                            <span class="sixth-section__wrapper-item-menu-items -not-active">New</span>
+                        </div>
+                        <h3 class="sixth-section__wrapper-item-menu-title">Loudest à la Madison #1
+                            (L'integral)</h3>
+                        <span class="sixth-section__wrapper-item-menu-description">
+                            We focus on ergonomics and meeting
+                            you where you work. It's only a
+                            keystroke away.
+                        </span>
+                        <div class="sixth-section__wrapper-item-menu-info">
+                            <div class="sixth-section__wrapper-item-menu-info-date">
+                                <img src="img-mobile/date-icon.svg" alt="date">
+                                <span>22 April 2021</span>
+                            </div>
+                            <div class="sixth-section__wrapper-item-menu-info-comments">
+                                <img src="img-mobile/comments-icon.svg" alt="comments">
+                                <span>10 comments</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-        
+        <div class="wrapper__footer">
+            <div class="wrapper__footer-logo-part">
+                <span class="wrapper__footer-logo-part-name">Bandage</span>
+                <div class="wrapper__footer-logo-part-images">
+                    <img src="img-mobile/facebook-icon.svg" alt="facebook">
+                    <img src="img-mobile/instagram-icon.svg" alt="instagram">
+                    <img src="img-mobile/twitter-icon.svg" alt="twitter">
+                </div>
+            </div>
+            <div class="wrapper__footer-list">
+                <ul class="wrapper__footer-list-items">
+                    <li class="wrapper__footer-list-items-title">Company Info</li>
+                    <li>About Us</li>
+                    <li>Carrier</li>
+                    <li>We are hiring</li>
+                    <li>Blog</li>
+                </ul>
+                <ul class="wrapper__footer-list-items">
+                    <li class="wrapper__footer-list-items-title">Legal</li>
+                    <li>About Us</li>
+                    <li>Carrier</li>
+                    <li>We are hiring</li>
+                    <li>Blog</li>
+                </ul>
+                <ul class="wrapper__footer-list-items">
+                    <li class="wrapper__footer-list-items-title">Features</li>
+                    <li>Business Marketing</li>
+                    <li>User Analytic</li>
+                    <li>Live Chat</li>
+                    <li>Unlimited Support</li>
+                </ul>
+                <ul class="wrapper__footer-list-items">
+                    <li class="wrapper__footer-list-items-title">Resources</li>
+                    <li>IOS & Android</li>
+                    <li>Watch a Demo</li>
+                    <li>Customers</li>
+                    <li>API</li>
+                </ul>
+                <span class="wrapper__footer-list-form-title">Get In Touch</span>
+                <div class="wrapper__footer-list-form">
+                    <input type="search" placeholder="Your Email" class="wrapper__footer-list-form-input">
+                    <button type="button" class="wrapper__footer-list-form-button">Subscribe</button>
+                </div>
+                <span class="wrapper__footer-list-lorem-text">Lore imp sum dolor Amit</span>
+            </div>
+            <span class="wrapper__footer-about-right">Made With Love By<br> Finland All Right Reserved</span>
+        </div>
     </footer>
 </body>
+
 </html>
