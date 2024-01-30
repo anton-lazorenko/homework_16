@@ -151,3 +151,109 @@
         
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .wrapper__header {
+
+        .wrapper__header-desktop-top { 
+            display: flex; 
+            justify-content: space-between;
+            align-items: center;  
+            padding: 0 40px;
+
+            & :nth-child(1) { 
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+                & :nth-child(1) {
+                    gap: 5px;
+                }
+
+            }
+
+            & :nth-child(2) {  
+                display: flex;
+                align-items: center;
+                gap: 5px; 
+                padding-right: 20px;
+            }
+            & :nth-child(3) {  
+                display: flex;
+                align-items: center;
+                gap: 15px;
+            } 
+        }
+
+        &-items {
+            display: none;
+        }
+
+        &-list {
+            display: none;
+        }
+
+        &-desktop-header {
+            padding: 12px 17px 54px 38px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between; 
+
+            &-logo {
+                color: #252B42;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 32px;
+                letter-spacing: 0.1px;
+                padding-right: 119px;
+            }
+
+            &-list {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                color: #737373;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+            }
+
+            &-login-items {
+                padding-left: 486px;
+                display: flex;
+                align-items: center;
+                color: #23A6F0;
+                text-align: center;
+                font-size: 14px; 
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.2px; 
+
+                &-login-icon {
+                    
+                }
+
+                &-login-text {
+                    padding-left: 5px;
+                }
+
+                &-search-icon {
+                    padding-left: 30px;
+                }
+
+                &-shopping-card-icon {
+                    padding-left: 30px;
+                }
+
+                &-favourite-icon {
+                    padding-left: 30px;
+                }
+            }
+    
+        
+        }
+        
+    }
+}
