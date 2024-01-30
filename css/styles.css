@@ -1644,7 +1644,7 @@ footer {
   max-height: 173px;
 }
 footer .wrapper__footer {
-  min-width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 footer .wrapper__footer-logo-part {
