@@ -429,6 +429,7 @@ template {
 }
 @media screen and (min-width: 1440px) {
   .wrapper__header .wrapper__header-desktop-top {
+    background: #252B42;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1643,7 +1644,7 @@ footer {
   max-height: 173px;
 }
 footer .wrapper__footer {
-  max-width: 1440px;
+  min-width: 1440px;
   margin: 0 auto;
 }
 footer .wrapper__footer-logo-part {
@@ -1837,6 +1838,69 @@ footer .wrapper__footer-about-right {
   }
   footer .wrapper__footer-list-form-title {
     padding-top: 13px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  footer {
+    max-height: 138px;
+  }
+  footer .wrapper__footer {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  footer .wrapper__footer-logo-part {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 195px;
+  }
+  footer .wrapper__footer-logo-part-name {
+    padding: 10px 0;
+    font-size: 24px;
+  }
+  footer .wrapper__footer-logo-part-images {
+    padding-right: 63px;
+  }
+  footer .wrapper__footer-list {
+    gap: 10px;
+    padding: 42px 195px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer .wrapper__footer-list-items:nth-child(3) {
+    padding-left: 30px;
+  }
+  footer .wrapper__footer-list-items:nth-child(5) {
+    gap: 5px;
+  }
+  footer .wrapper__footer-list-form-title {
+    padding-top: 13px;
+    padding-bottom: 10px;
+  }
+  footer .wrapper__footer-list-form {
+    margin-right: 32px;
+  }
+  footer .wrapper__footer-list-form-input {
+    max-width: 208px;
+    min-height: 58px;
+  }
+  footer .wrapper__footer-list-lorem-text {
+    color: #737373;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+  }
+  footer .wrapper__footer-about-right {
+    padding-left: 195px;
+    padding-bottom: 0;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    align-items: start;
   }
 }
 body {
